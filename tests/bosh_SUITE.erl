@@ -30,14 +30,14 @@
 -define(INVALID_RID_OFFSET, 999).
 
 all() ->
-    [{group, essential},
+    [%{group, essential},
      {group, essential_https},
 
-     {group, chat},
-     {group, chat_https},
+     %{group, chat},
+     {group, chat_https}
 
-     {group, time},
-     {group, acks}
+     %{group, time},
+     %{group, acks}
     ].
 
 groups() ->
